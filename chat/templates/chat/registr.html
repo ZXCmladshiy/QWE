@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registration</title>
+        <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    </head>
+
+    <body style="background-color:#696969">
+
+      <div class="reg_form">
+        <div class="inside_reg_form">
+          <h1 class="toptitle"> Enter you name </h1>
+
+          <div class="contactstyle topform">
+            <form method="post" action="contact/topcontact.php" id="topcontactform">
+              <div class="form">
+
+                <div class="enter_name">
+                  <input type="text" name="name" size="40" placeholder="Username" class = "ENter_sting" id = "username-input">
+                </div>
+
+<a class="button-is-info" id="room-name-submit">
+                <div class="button_enter">
+                  <div class="kek">
+                    Enter
+                  </div>
+                </div>
+</a>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+
+      <script>
+                  document.querySelector('#username-input').focus();
+
+                  document.querySelector('#room-name-submit').onclick = function(e) {
+                      var userName = document.querySelector('#username-input').value;
+                      if (userName == 0) userName = "Anon"
+                      window.location.replace( 'chat/' + userName);
+                  };
+      </script>
+
+    </body>
+</html>

@@ -1,0 +1,77 @@
+body {
+
+}
+
+.reg_form {
+  width: 400px;
+  height: 300px;
+  background-color: #A9A9A9;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.inside_reg_form{
+  width: 80%;
+  height: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.toptitle{
+  text-align: center;
+  padding-top: 20px;
+  color: black;
+  font-family: monospace;
+}
+.button_enter{
+  width:317px;
+  height: 40px;
+  margin-top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #FDF5E6;
+  border-radius: 7px 7px 7px 7px;
+}
+.kek{
+  width:40px;
+  height:25px;
+  margin-left: auto;
+  margin-right: auto;;
+  padding-top: 8px;;
+}
+.button-is-info{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.ENter_sting {
+  resize: none;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-top: 20%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+kek

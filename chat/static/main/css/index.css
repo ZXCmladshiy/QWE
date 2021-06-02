@@ -1,0 +1,94 @@
+body {
+    background: #696969;
+}
+
+aside {
+    float:left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+aside img {
+    width:100px;
+    float: left;
+    position: relative;
+    top: -5px;
+    left: -5px;
+
+}
+
+aside .logo {
+    font-size: 25px;
+    margin-left: 10px;
+    font-weight:bold;
+    position: relative;
+    top: 0px;
+}
+aside h3 {
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+aside ul {
+    list-style: none;
+    margin-left: -38px;
+
+}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top:20px;
+    transition: transform .6s ease;
+}
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float:left;
+    color: #fff;
+    margin_top: 100px;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1{
+    font-size: 50px;
+}
+main .features{max-width: 600px; margin: 20px 220px;}
+
+.NAV{
+  font-size: 20px;
+}
+.loler{
+  margin-top: 30px;
+  font-size: 20px;
+}
+.box{
+  background-color: white;
+  font-family:monospace;
+  border: 2px solid black;
+}
+.inputLOL{
+  width: 70%;
+  height: 40px;
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.button-is-info{
+  background-color: #FDF5E6;
+  font-size: 20px;
+  border-radius: 3px;
+  font-family: monospace;
+}
+.controlKEKER{
+  margin-top: 20px;
+  padding-left: -20%;
+}
